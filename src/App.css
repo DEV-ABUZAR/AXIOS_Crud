@@ -1,3 +1,15 @@
+.card {
+  border: 2px solid black;
+  width: 30%;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card h2 {
+  margin-bottom: 5px;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +48,90 @@
     transform: rotate(360deg);
   }
 }
+.text {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin:10px;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.card h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #666;
+}
+/* Just add this code to your App.css file and it should apply the styling to your app. You can adjust the colors, fonts, and other properties as needed to get the look you want. */
+
+
+
+
+
+
